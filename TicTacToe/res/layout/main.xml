@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>	
+		
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:gravity="center"
+    android:orientation="vertical" >
+	
+	<TextView
+		android:id="@+id/Turn"
+		android:layout_width="fill_parent"
+		android:gravity="center"
+		android:layout_height="wrap_content"
+		android:text="Turn: "
+	/>
+	
+	
+<!-- Row 1 -->
+	
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+	>
+		<Button
+			android:onClick="R1C1Click"
+			android:id="@+id/R1C1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="" />
+
+		<Button
+			android:onClick="R1C2Click"
+			android:id="@+id/R1C2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="" />
+
+		<Button
+			android:onClick="R1C3Click"
+			android:id="@+id/R1C3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="" />
+	</LinearLayout>
+	
+	
+	<!-- Row 2 -->
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+	>
+
+
+		<Button
+			android:onClick="R2C1Click"
+			android:id="@+id/R2C1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="" />
+
+		<Button
+			android:onClick="R2C2Click"
+			android:id="@+id/R2C2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="" />
+
+		<Button
+			android:onClick="R2C3Click"
+			android:id="@+id/R2C3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="" />
+	</LinearLayout>
+	
+	<!-- Row 3-->
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		>
+	
+	
+    <Button
+		android:onClick="R3C1Click"
+		android:id="@+id/R3C1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+		<Button
+			android:onClick="R3C2Click"
+			android:id="@+id/R3C2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="" />
+		
+		<Button
+			android:onClick="R3C3Click"
+			android:id="@+id/R3C3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="" />
+	</LinearLayout>
+	<Button
+		android:text="reset"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:onClick="GiveUp"
+		/>
+</LinearLayout>
+
